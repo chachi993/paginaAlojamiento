@@ -21,6 +21,7 @@
 </head>
 <body>
                 <!---------- SECCION HEADER------------>
+    <!--Aqui creamos el header con logo y menu, donde presionando cada uno te remite al area de la pagina donde está la información-->
 
     <header>
         <figure>
@@ -88,10 +89,11 @@
         <!---------- SECCION TRES FOTOS------------>
 
          <section id="seccionTres">
-           <!-- Titulo de la Seccion -->
+             <!-- Titulo de la Seccion -->
             <h2>Fotos</h2>
             <!--Opte por crear un div que contiene todas las fotos para que sea más facil agregar mas si asi se requiere, solo bastaria agregar al css un hijo mas-->
             <div id="contenedorDeFigures">
+                <!--Utilizamos la etiqueta semantica figure para contener a la foto -->
                 <figure>
                     <img src="./img/cabaña1.jpg" alt="vista desde arriba de la cabaña más grande" title="Cabaña más grande vista aerea">
                 </figure>
@@ -116,6 +118,7 @@
         <!---------- SECCION CUATRO TARIFAS------------>
 
         <section id="seccionCuatro">
+            <!-- Titulo de la Seccion -->
             <h2>Tarifas</h2>
             <!--Cada una de las cards con su info, están contenidas por un article-->
             <article>
@@ -130,7 +133,7 @@
                     <p>Vista al bosque</p>
                     <p class="puntuacion">9.1 - excepcional</p>
                 </span>
-                <!-- uso de span para contener la información de la habitacion -->
+                <!--Utilizamos la etiqueta  span para contener la información de la cabaña -->
                 <div class="pieDeCard">
                     <p class = "parrafo"><strong>50 USD / noche</strong></p>
                     <a class="button">AMPLIAR</a>
@@ -194,7 +197,7 @@
         <section id="seccionCinco">        
             <h2>Reservas</h2>
             <!--Generamos un form donde se van a insertar la info necesaria para enviarse-->
-            <form action="ejemplo.ejemplo" method="post">
+            <form action="ejemplo.ejemplo" method="post"> <!--Usamos el metodo post ya que la info seria enviada a un servidor-->
                 <fieldset>
                     <label for="nombreApellido">Nombre y apellido(*)</label>
                     <input type="text" id="nombreApellido" placeholder="John Doe" required>
@@ -229,6 +232,7 @@
      <!---------- SECCION FOOTER------------>
 
     <footer>
+        <!--Usamos el metodo de lista para poder mostrar las imagenes y el link en el footer-->
         <ul>
             <li id="listaUno">
                 <figure id="booking">

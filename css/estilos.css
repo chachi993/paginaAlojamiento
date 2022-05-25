@@ -43,7 +43,6 @@ nav {
     width: 60%;
     height: 200px;
      display: flex; 
-     justify-content: space-between;
      align-items: center;
 } 
 header nav ul{
@@ -51,13 +50,13 @@ header nav ul{
     height: 100px;
     display: flex; /*para situarlo correctamente */
     align-items: center;     
-    list-style-type: none;
+    
     text-align: center;
 }
 nav ul li{
     padding: 20px;
-    text-decoration: none;
-    display: inline-block; /*para que se coloquen en linea*/
+    text-decoration: none; /*para eliminar la viñeta de lista*/
+    display: inline-block; /*para que se coloquen en linea */
     align-items: center;
     margin: 0 auto;  /*alinear elemento de bloque*/
 }
@@ -70,6 +69,7 @@ header nav ul li a{
     display: block;
     text-align: center; /*para alinear texto*/
 }
+/*elegimos como va a lucir el menú una vez se pare el mouse sobre él*/
 header nav ul li a:hover{
     background-color: tomato;
     color: rgb(255, 255, 255);
@@ -82,8 +82,8 @@ header nav ul li a:hover{
     height: 550px;
     background-image: url('../img/casita.jpg');
     background-size: cover;
-    background-position: 0 -650px; 
-    background-repeat: no-repeat;
+    background-position: 0 -650px; /*elegimos que parte de la foto queremos mostrar*/
+    background-repeat: no-repeat; /*para que no se repita la foto*/
 }
  #seccionUno article {
     width: 600px;
@@ -118,13 +118,13 @@ header nav ul li a:hover{
  #seccionDos h2, #seccionTres h2, #seccionCuatro h2, #seccionCinco h2{
     padding: 30px;
     font-size: 27px;
-    text-align: center;
+    text-align: center; /*alineamos el texto en el centro de la seccion*/
   }
 #seccionDos article{
     width: 550px;
     text-align: left;
     margin: auto 20px;
-    display: inline-block; 
+    display: inline-block; /*colocamos los dos articulos en linea*/
 }
 #seccionDos article figure{
     width: 100%;
@@ -158,6 +158,7 @@ article h3{
     color: rgb(255, 253, 253);
     background-color: rgb(59, 52, 52);
 }
+/*elegimos como va a lucir el botón una vez se pare el mouse sobre él*/
 .button:hover{
     background-color: tomato;
     color: white;
@@ -182,6 +183,7 @@ article h3{
     grid-gap: 10px;
     padding: 10px;
 }
+/*elegimos modificar el primer hijo de figures*/
 #contenedorDeFigures figure:nth-child(1){
     width: 300px; 
     height: 400px;
@@ -193,6 +195,8 @@ article h3{
     height: 95%;
     margin: 0 auto;
 }
+/*elegimos modificar el cuarto hijo de figures*/
+
 #contenedorDeFigures figure:nth-child(4){
     width: 300px; 
     height: 400px;
@@ -245,14 +249,12 @@ article h3{
     background-color: #6D8B74;
     color: white;
     font-size: 17px;
-    font-family: 'Quicksand', sans-serif;
 }
-#seccionCinco h2{
-    text-align: center;
-}
+
 form {
     width: 450px;
     padding-top: 10px;
+    font-family: 'Quicksand', sans-serif;
     grid-template-columns: 220px 220px;
     grid-template-rows: 70px 70px 80px;
     display: grid;
