@@ -8,12 +8,20 @@
 <meta name="keywords" content="Sitio de alojamiento, hotel, naturaleza, disfrutar">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Nanum+Gothic&family=Quicksand:wght@300&family=Roboto+Flex:opsz,wght@8..144,200;8..144,600&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,200&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,200;8..144,600&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;300&family=Nanum+Gothic&family=Roboto+Flex:opsz,wght@8..144,200;8..144,600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/estilos.css">
+<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Fredoka+One&family=Nanum+Gothic&family=Poppins:wght@200&family=Quicksand:wght@300&family=Roboto+Flex:opsz,wght@8..144,200;8..144,600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+
+            <!---------- SE LINKEA LAS GOOGLE FONTS------------>
+
 </head>
 <body>
+                <!---------- SECCION HEADER------------>
+
     <header>
         <figure>
             <img src="./img/logo.jpg" alt="Logo de la empresa, son dos cabañas con un bosque detrás" title="Logo"> 
@@ -28,20 +36,26 @@
             </ul>
         </nav>
         </header>
+    <!---------- SECCION UNO BANNER------------>
+
     <main>
         <section id="seccionUno">
             <!--Se utiliza un articulo para poder elegir la distancia deseada del texto del banner-->
             <article>
-                <h2>Bienvenidos!</h2>
+                <h1>Bienvenidos!</h1>
                 <p>Si estás buscando un refugio fuera de la ciudad y el ruido.Estás en el lugar correcto. En los Andes, con las montañas como fondo, disfrutar es tarea obligatoria</p>
             </article>
         </section>
+
+        <!---------- SECCION DOS PROMOS------------>
+
         <section id="seccionDos">
             <!-- Titulo de la Seccion -->
             <h2>Promos</h2>
+            <!--Cada una de las cards con su info, están contenidas por un article-->
             <article>
                 <figure>
-                    <img src="img/cabaña1.jpg" alt="jacussi en balcón frente al mar" title="imagen promo"/>
+                    <img src="img/cabaña10.jpg" alt="jacussi en balcón frente al mar" title="imagen promo"/>
 				</figure >
                 <!-- div para la contener a la descripción -->
                 <div class="infoCard">
@@ -69,152 +83,168 @@
                 </div>
             </article>
             </section>
+
+
+        <!---------- SECCION TRES FOTOS------------>
+
          <section id="seccionTres">
            <!-- Titulo de la Seccion -->
-            <h3>Fotos</h3>
-            <!--Opto por crear un div que contiene todas las fotos para que sea más facil agregar mas si asi se requiere, solo bastaria agregar al css un hijo mas-->
+            <h2>Fotos</h2>
+            <!--Opte por crear un div que contiene todas las fotos para que sea más facil agregar mas si asi se requiere, solo bastaria agregar al css un hijo mas-->
             <div id="contenedorDeFigures">
                 <figure>
-                    <img src="./img/cabaña1.jpg" alt="" title="">
+                    <img src="./img/cabaña1.jpg" alt="vista desde arriba de la cabaña más grande" title="Cabaña más grande vista aerea">
                 </figure>
                 <figure>
-                    <img src="./img/cabaña2.jpg" alt="" title="">
+                    <img src="./img/cabaña2.jpg" alt="Imagen de la laguna, donde se puede ver su proximidad" title="Casa proxima a laguna">
                 </figure>
                 <figure>
-                    <img src="./img/cabaña3.jpg" alt="" title="">
+                    <img src="./img/cabaña3.jpg" alt="Vista del living de la casa" title="Living">
                 </figure>
                 <figure>
-                    <img src="./img/cabaña4.jpg" alt="" title="">
+                    <img src="./img/cabaña9.jpg" alt="Vista del dormitorio" title="Ventana y la vista">
                 </figure>
                 <figure>
-                    <img src="./img/cabaña5.jpg" alt="" title="">
+                    <img src="./img/cabaña7.jpg" alt="Imagen desde afuera de una de las cabañas" title="Cabaña, vista exterior">
                 </figure>
                 <figure>
-                    <img src="./img/cabaña6.jpg" alt="" title="">
+                    <img src="./img/cabaña8.jpg" alt="Muchos arboles y detrás una cabaña" title="Cabaña desde afuera">
                 </figure>
             </div>
         </section>
+
+        <!---------- SECCION CUATRO TARIFAS------------>
+
         <section id="seccionCuatro">
-            <h3>Tarifas</h3>
-            <article class="card-container">
-                <div class="card-seccion4">
-                    <figure class="card-image">
-                        <img src="./img/cabaña2.jpg">
-                    </figure>
-                    <h4>Alojamiento tipo 1</h4>
-                    <ul>
-                        <li>Simple</li>
-                        <li>Alojamiento Compartido</li>
-                        <li>Cocina</li>
-                        <li>Vista a la montaña</li>
-                    </ul>
-                    <p>9.1 - excepcional</p>
-                    <div class="pieCard-container">
-                        <article class="precio-container">
-                            <p><strong>USD 30 por día</strong></p>
-                        </article>
-                        <article class="boton-container">
-                            <a class="boton">AMPLIAR</a> </article>
-                    </div>
+            <h2>Tarifas</h2>
+            <!--Cada una de las cards con su info, están contenidas por un article-->
+            <article>
+                <figure>
+                    <img src="./img/cabaña3.jpg" alt="Vista del living de la cabaña" title="Alojamiento para grupos"/>
+                </figure >
+                <span>
+                    <h3>Alojamiento para grupos</h3>
+                    <p>Simple</p>
+                    <p>Alojamiento Compartido</p>
+                    <p>Cocina</p>
+                    <p>Vista al bosque</p>
+                    <p class="puntuacion">9.1 - excepcional</p>
+                </span>
+                <!-- uso de span para contener la información de la habitacion -->
+                <div class="pieDeCard">
+                    <p class = "parrafo"><strong>50 USD / noche</strong></p>
+                    <a class="button">AMPLIAR</a>
                 </div>
-                    <div class="card-seccion4">
-                        <figure class="card-image">
-                            <img src="./img/cabaña2.jpg">
-                        </figure>
-                        <h4>Alojamiento tipo 2</h4>
-                    <ul>
-                        <li>Doble</li>
-                        <li>Alojamiento entero</li>
-                        <li>jacuzzi</li>
-                    </ul>
-                    <p>9.8 - excepcional</p>
-                    <div class="pieCard-container">
-                        <article class="precio-container">
-                            <p><strong>USD 30 por día</strong></p>
-                        </article>
-                        <article class="boton-container">
-                            <a class="boton">AMPLIAR</a> </article>
-                    </div>
+            </article>
+            <article>
+                <figure>
+                    <img  src="./img/cabaña4.jpg" alt="imagen de una de las ventanas de la cabaña" title="Ventana desde el dormitorio"/>
+                </figure >
+                <span>
+                    <h3>Alojamiento 2 personas</h3>
+                    <p>Doble</p>
+                    <p>Alojamiento entero</p>
+                    <p>Vista al mar</p>
+                    <p>Jacuzzi</p>
+                    <p class="puntuacion">9.8 - excepcional</p>
+                </span>
+                <div class="pieDeCard">
+                    <p class = "parrafo"><strong>35 USD / noche</strong></p>
+                    <a class="button">AMPLIAR</a>
                 </div>
-                    </div>
-                    <div class="card-seccion4">
-                        <figure class="card-image">
-                            <img src="./img/cabaña2.jpg">
-                        </figure>
-                        <h4>Alojamiento tipo 3</h4>
-                    <ul>
-                        <li>4 personas</li>
-                        <li>Alojamiento Entero</li>
-                        <li>Admite mascotas</li>
-                        <li>Parking</li>
-                    </ul>
-                    <p>7 - medio</p>
-                    <div class="pieCard-container">
-                        <article class="precio-container">
-                            <p><strong>USD 30 por día</strong></p>
-                        </article>
-                        <article class="boton-container"><a class="boton">AMPLIAR</a> </article>
-                    </div>
-                    </div>
-                    <div class="card-seccion4">
-                        <figure class="card-image">
-                            <img src="./img/cabaña2.jpg">
-                        </figure>
-                        <h4>Alojamiento tipo 4</h4>
-                    <ul>
-                        <li>Doble</li>
-                        <li>Alojamiento Entero</li>
-                        <li>Jardín</li>
-                        <li>Parrillero</li>
-                    </ul>
-                    <p>8.1 - bueno</p>
-                    <div class="pieCard-container">
-                        <article class="precio-container">
-                            <p><strong>USD 30 por día</strong></p>
-                        </article>
-                        <article class="boton-container"><a class="boton">AMPLIAR</a> </article>
-                    </div>
-                    </div>
-            </article>            
+            </article>
+            <article>
+                <figure>
+                    <img src="./img/cabaña5.jpg" alt="balcon de da al bosque y las montañas" title="Balcón"/>
+                </figure >
+                <span>
+                    <h3>Alojamiento 2 personas</h3>
+                    <p>Doble</p>
+                    <p>Alojamiento entero</p>
+                    <p>Balcón con vista al Jardin</p>
+                    <p>Jacuzzi</p>
+                    <p class="puntuacion">7 - medio</p>
+                </span>
+                <div class="pieDeCard">
+                    <p class = "parrafo"><strong>40 USD / noche</strong></p>
+                    <a class="button">AMPLIAR</a>
+                </div>
+            </article>
+            <article>
+                <figure>
+                    <img  src="./img/casita.jpg" alt="cabaña vista desde afuera" title="Cabaña vista desde el exterior"/>
+                </figure >
+                <span> 
+                    <h3>Cabaña acogedora</h3>
+                    <p>Fondo hacia la laguna</p>
+                    <p>Doble dormitorio en suite</p>
+                    <p>Paseos en bici incluidos</p>
+                    <p>Admite mascotas</p>
+                    <p class="puntuacion">9.9 - excepcional</p>
+                </span>
+                <div class="pieDeCard">
+                    <p class = "parrafo"><strong>40 USD / noche</strong></p>
+                    <a class="button">AMPLIAR</a>
+                </div>
+            </article>
         </section>
+
+        <!---------- SECCION CINCO RESERVAS------------>
+
         <section id="seccionCinco">        
-            <h3>Reservas</h3>
-            <form>
-            <fieldset>
-                <label for="nombreApellido">Nombre y apellido*</label>
-                <input type="text" id="nombreApellido" placeholder="John" required>
-            </fieldset>
-            <fieldset>
-                <label for="cantidadPersonas">Cantidad personas*</label>
-                <input type="number" id="cantidadPersonas" placeholder="5" required>
-            </fieldset>
-            <fieldset>
-                <label for="tipoAlojamiento">Tipo de alojamiento*</label>
-                <select name="tipoAlojamiento" id="tipoAlojamientoSelect" required>
-                    <option value="" disabled selected>-Seleccione Alojamiento-</option>
-                    <optgroup label="tipo Alojamientos">
-                        <option value="1">1 personas</option>
-                        <option value="2">2 personas </option>
-                        <option value="3">3 persona - 1</option>
-                        <option value="4">4 persona - 2</option>
-                    </optgroup>
-                    <optgroup label="Promos">
-                        <option value="5">Promo 1</option>
-                        <option value="6">Promo 2</option>
-                    </optgroup>
-                </select>
-            </fieldset>
-            <fieldset>
-                <input type="submit" value="RESERVAR">
-            </fieldset>
+            <h2>Reservas</h2>
+            <!--Generamos un form donde se van a insertar la info necesaria para enviarse-->
+            <form action="ejemplo.ejemplo" method="post">
+                <fieldset>
+                    <label for="nombreApellido">Nombre y apellido(*)</label>
+                    <input type="text" id="nombreApellido" placeholder="John Doe" required>
+                </fieldset>
+                <fieldset>
+                    <label for="cantidadPersonas">Cantidad personas(*)</label>
+                    <input type="number" id="cantidadPersonas" placeholder="5" required>
+                </fieldset>
+                <fieldset>
+                    <label for="tipoAlojamiento">Tipo de alojamiento(*)</label>
+                    <select name="tipoAlojamiento" id="tipoAlojamientoSelect" required>
+                        <option value="" disabled selected>-Seleccione Alojamiento-</option>
+                        <optgroup label="tipo Alojamientos">
+                            <option value="1">Alojamiento para grupos</option>
+                            <option value="2">Alojamiento para 2 personas </option>
+                            <option value="3">Alojamiento para 2 personas</option>
+                            <option value="4">Cabaña pequeña acogedora</option>
+                        </optgroup>
+                        <optgroup label="Promos">
+                            <option value="5">Promo 1</option>
+                            <option value="6">Promo 2</option>
+                        </optgroup>
+                    </select>
+                </fieldset>
+                <fieldset>
+                    <input class="input" type="submit" value="RESERVAR">
+                </fieldset>
             </form>
         </section>     
-        </section>
     </main>
-        <footer>
-            <article>
-                
-            </article>
-        </footer>
-</body>
+
+     <!---------- SECCION FOOTER------------>
+
+    <footer>
+        <ul>
+            <li id="listaUno">
+                <figure id="booking">
+                    <img src="./img/booking.png" alt="icono de booking" title="booking">
+                </figure>
+                <figure>
+                    <img src="./img/Airbnb.png" alt="icono de airbnb" title="airbnb">
+                </figure>
+            </li>
+            <li id="listaDos">
+                <a target="#" href="https://www.instagram.com/">
+                    <p><strong>Seguinos!</strong></p>
+                    <img src="./img/instagram.png" alt="icono de instagram" title="instagram">
+                </a>
+            </li>
+        </ul>
+    </footer>
+    </body>
 </html>
